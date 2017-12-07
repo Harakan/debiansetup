@@ -1,6 +1,7 @@
 #!/bin/bash
+#Call with the e-mail address as the argument
+# ie: ./git_setup.sh myemail@address.place
 
-sudo apt-get install git
-git config --global user.email "wgt538@gmail.com"
+git config --global user.email "$1"
 git config --global user.name "Harakan"
 git config --global core.editor "vim"

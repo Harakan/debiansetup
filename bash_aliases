@@ -1,0 +1,5 @@
+alias ".."='cd ..'
+alias "zoomin"='xrandr --fb 1366x768 --output LVDS1 --scale 1x1'
+alias "zoomout"='xrandr --fb 1600x900 --output LVDS1 --panning 1600x900 --scale 1.17x1.17' 
+alias fsizes='du -sch .[!.]* * |sort -h'
+alias myip='curl -s checkip.dyn.com | grep -Eo [0-9.]+'
